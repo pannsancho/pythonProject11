@@ -10,7 +10,11 @@ def get_file_extension(file_name):
 
 
 def main():
-    ...
+    file_name = input("Введите имя файла: ")
+    extension = get_file_extension(file_name)
+
+    if extension:
+        print(f"Расширение файла: {extension}")
 
 
 if __name__ == "__main__":
